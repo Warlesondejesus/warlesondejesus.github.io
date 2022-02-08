@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--Faça um fomulário HTML com os campos nome, sobrenome, CPF, email, 
+    senha, sexo (masculino, feminino, outro), 
+    data de nascimento e um botão para enviar o formulário.-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Formulario">
+    <meta name="author" content="Warleson">
+    <meta name="description" content="Este é o meu formulário">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Preencha o formulário a seguir</h1>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome..." required>
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="" id="sobrenome" placeholder="Digite seu sobrenome..." required>
+
+            <label for="cpf">CPF</label>
+            <input type="text" name="" id="cpf" placeholder="111.111.111 - 11" minlength="11" maxlength="11" required><br><br>
+
+            <label for="sexo">Sexo</label>
+            <select name="" id="sexo">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="O">Outro</option>
+            </select>
+            
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" id="nascimento" placeholder="10/10/1010">
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Login</legend>
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="mail@mail.com" id="email" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Digite sua senha" minlength="6" maxlength="10" required>
+
+          
+        </fieldset><br><br>
+
+        <button type="submit">Enviar Formulário</button>
+        
+    </form>
+    
+</body>
+</html>

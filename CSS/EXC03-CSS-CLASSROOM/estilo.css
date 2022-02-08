@@ -1,0 +1,37 @@
+body{
+    background-color: #fff;
+    margin: 10px 10px;
+
+  }
+  
+  header{
+    background: #cccccc;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  h1{
+    color: #fff;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  section {
+    background-color: #fe0000;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .div{
+    background-color:#008001;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #888888;
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;

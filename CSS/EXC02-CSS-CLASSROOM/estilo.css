@@ -1,0 +1,111 @@
+#borda{
+    padding: 020px;
+    width: 1268px;
+    height: 2500px;
+    border: 5px solid rgb(4, 210, 247);
+}
+body{
+    background-color: azure;
+}
+h1{
+    color: rgb(60, 167, 60);
+    text-align: center;
+}
+.card{
+    width: 360px;
+    height: 220px;
+    border: 2px solid black;
+    margin: 20px 25px;
+    display: inline-block;
+    background-color: blanchedalmond;
+}
+
+h4{
+    text-align: center;
+    color: blue;
+    text-decoration: underline overline;
+}
+.imagem{
+    margin: 5px 20px;
+    float: left;
+}
+
+div p{
+    text-align: initial;
+}
+#forma1{
+    border: 2px solid green;
+    border-radius: 30% 0% 0%;
+}
+#forma2{
+    border: 1px solid rgb(2, 0, 128);
+    border-radius: 0% 30% 0% 0%;
+}
+#forma3{
+    border: 2px solid rgb(199, 126, 17);
+    border-radius: 0% 0% 0% 30%;
+}
+#forma4{
+    border: 1px solid rgb(42, 139, 42);
+    border-radius: 0% 0% 30% 0%;
+}
+#forma5{
+    border: 3px dashed rgb(233, 15, 15);
+}
+#forma6{
+    border: 2px solid rgb(233, 15, 215);
+}
+#forma7{
+    border: 5px dotted rgb(15, 233, 204);
+}
+#forma8{
+    border: 3px dashed rgb(189, 15, 233);
+}
+#forma9{
+    border: 4px dotted rgb(233, 15, 33);
+}
+#forma10{
+    border: 5px double rgb(212, 49, 49);
+}
+#forma11{
+    border: 3px dashed rgb(233, 15, 15);
+}
+#forma12{
+    border: 2px solid rgb(233, 15, 215);
+}
+#forma13{
+    border: 5px dotted rgb(15, 233, 204);
+}
+#forma14{
+    border: 3px dashed rgb(189, 15, 233);
+}
+#forma15{
+    border: 4px dotted rgb(233, 15, 33);
+}
+#forma16{
+    border: 5px double rgb(212, 49, 49);
+}
+#forma17{
+    border: 3px dashed rgb(233, 15, 15);
+}
+#forma18{
+    border: 2px solid rgb(233, 15, 215);
+}
+#forma19{
+    border: 5px dotted rgb(15, 233, 204);
+}
+#forma20{
+    border: 3px dashed rgb(189, 15, 233);
+}
+#forma21{
+    border: 4px dotted rgb(233, 15, 33);
+}
+#forma22{
+    border: 5px double rgb(212, 49, 49);
+}
+#forma23{
+    border: 3px dashed rgb(233, 15, 15);
+}
+#forma24{
+    border: 2px solid rgb(233, 15, 215);
+}
