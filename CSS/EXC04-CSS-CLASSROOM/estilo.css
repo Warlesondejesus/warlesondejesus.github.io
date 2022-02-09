@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+
+#div1{
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, red, white, green);
+}
+#div2{
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: linear-gradient(yellow, rgb(29, 26, 26), rgb(0, 30, 128));
+}
+#div3{
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: linear-gradient(45deg, rgb(0, 255, 0), rgb(143, 26, 158), rgb(69, 150, 216));
+}
+#div4{
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: linear-gradient(to left, rgb(180, 255, 6), rgb(48, 27, 168), rgb(59, 122, 59));
+}
+#div5{
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: radial-gradient(at center, red, white, green);
+}
+#div6{
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: repeating-linear-gradient( rgb(12, 0, 0), rgb(191, 211, 8)25%);
+}
+#div7{
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(90, 150, 88), rgb(194, 12, 12), rgb(41, 6, 139));
+}
+#div8{
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: repeating-radial-gradient( white, rgb(42, 2, 117));
+}
+#div9{
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/gif1.gif)
+}
+#div10{
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/gif2.webp)
+}
+#div11{
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/gif3.gif)
+}
+#div12{
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/imag2.jpg)
+}
+#div13{
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/imag3.jpg)
+}
+#div14{
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/imag4.jpg)
+}
+#div15{
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/img1.jpg)
+}
+#div16{
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/imag5.jpg)
+}
+footer{
+    text-align: center;
+    margin: 0px;
+    padding: 1em;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    background-color: black;
+
+}
