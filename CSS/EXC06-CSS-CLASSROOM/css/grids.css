@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+#menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+}
+
+ul{
+    list-style: none;
+    display: flex;    
+}
+
+li{
+    margin-right: 25px;
+}
+
+a{
+    color: azure;    
+}
+
+.container1{
+    min-height: 90vh;
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr ;
+    grid-template-areas: 
+        'area1'
+        'area2'
+    ;
+    
+    gap: 10px;
+
+}
+.area1 {
+    background-color: yellow;
+    grid-area: area1;
+}
+.area2 {
+    background-color: rgb(0, 183, 255);
+    grid-area: area2;
+}
+.container2{
+    min-height: 90vh;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 1fr ;
+    grid-template-areas: 
+        'area3'
+        'area4'
+        'area5'
+    ;
+    
+    gap: 10px;
+
+}
+.area3 {
+    background-color: rgb(255, 0, 0);
+    grid-area: area3;
+}
+.area4 {
+    background-color: rgb(0, 4, 255);
+    grid-area: area4;
+}
+.area5 {
+    background-color: rgb(0, 255, 64);
+    grid-area: area5;
+}
+
+.container3{
+    min-height: 90vh;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 100px 1fr ;
+    grid-template-areas: 
+        'area6 area7 '
+        
+    ;
+    
+    gap: 10px;
+
+}
+.area6 {
+    background-color: yellow;
+    grid-area: area6;
+}
+.area7 {
+    background-color: rgb(0, 183, 255);
+    grid-area: area7;
+}
+.container4 {
+    min-height: 90vh;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-areas: 
+        'area8 area9 area10'
+       
+    ;
+    
+    gap: 10px;
+
+}
+.area8 {
+    background-color: rgb(72, 255, 0);
+    grid-area: area8;
+}
+.area9 {
+    background-color: rgb(212, 0, 255);
+    grid-area: area9;
+}
+.area10 {
+    background-color: rgb(255, 0, 0);
+    grid-area: area10;
+}
+.container5{
+    min-height: 90vh;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 100px 1fr ;
+    grid-template-areas: 
+        'area11 area11'
+        'area12 area13'
+    ;
+    
+    gap: 10px;
+
+}
+.area11 {
+    background-color: rgb(72, 80, 190);
+    grid-area: area11;
+}
+.area12 {
+    background-color: rgb(1, 148, 75);
+    grid-area: area12;
+}
+.area13 {
+    background-color: rgb(151, 50, 121);
+    grid-area: area13;
+}
+.container6{
+    min-height: 90vh;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-areas: 
+        'area14 area14 area14'
+        'area15 area16 area17'
+    ;
+    
+    gap: 10px;
+
+}
+.area14 {
+    background-color: rgb(163, 72, 72);
+    grid-area: area14;
+}
+.area15 {
+    background-color: rgba(70, 170, 40, 0.541);
+    grid-area: area15;
+}
+.area16 {
+    background-color: rgb(0, 18, 119);
+    grid-area: area16;
+}
+.area17 {
+    background-color: rgb(0, 183, 255);
+    grid-area: area17;
+}
+.container7{
+    min-height: 90vh;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 100px 1fr ;
+    grid-template-areas: 
+        'area18 area18'
+        'area19 area20'
+        'area21 area21'
+    ;
+    
+    gap: 10px;
+
+}
+.area18 {
+    background-color: yellow;
+    grid-area: area18;
+}
+.area19 {
+    background-color: rgb(0, 255, 115);
+    grid-area: area19;
+}
+.area20{
+    background-color: rgb(255, 136, 0);
+    grid-area: area20;
+}
+.area21 {
+    background-color: rgb(0, 183, 255);
+    grid-area: area21;
+}
+.container8{
+    min-height: 90vh;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-areas: 
+        'area22 area22 area22'
+        'area23 area24 area25'
+        'area26 area26 area26'
+    ;
+    
+    gap: 10px;
+
+}
+.area22 {
+    background-color: rgb(170, 170, 56);
+    grid-area: area22;
+}
+.area23 {
+    background-color: rgb(0, 183, 255);
+    grid-area: area23;
+}
+.area24 {
+    background-color: rgb(84, 160, 49);
+    grid-area: area24;
+}
+.area25 {
+    background-color: rgb(0, 41, 58);
+    grid-area: area25;
+}
+.area26 {
+    background-color: rgb(109, 17, 112);
+    grid-area: area26;
+}
