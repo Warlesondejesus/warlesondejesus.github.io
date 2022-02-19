@@ -1,0 +1,181 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+/* Reset de configurações */
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Definindo altura e largura do body */
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+
+    /* Definindo cor de fundo do body */
+    background-color: hsl(204, 43%, 93%);
+
+    /* Definindo Posicionamento e layout */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 45vw;
+    height: 63vh;
+    box-shadow: -1px -1px 18px 1px hsl(180, 12%, 74%);
+    /* Definindo grid layout */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: 
+    "topo topo"
+    "left right"
+    ;   
+    
+}
+
+/* Definindo box article*/
+
+article{
+    grid-area: topo;
+    padding: 37px;
+    background-color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+article h1{
+    font-size: xx-large;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 20px;
+}
+
+article h2{
+    font-size: larger;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+}
+
+article p{
+    color: hsl(218, 22%, 67%);
+    word-spacing: 2px;
+}
+
+/* Definindo box section (caixa inferior esquerda) */
+
+section{
+    background-color: hsl(179, 62%, 43%);
+    padding: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: left;
+    border-radius: 0 0 0 8px;
+    /* Animação */
+    transition: transform 0.5s;
+}
+
+/* Definindo box section (caixa inferior esquerda) - animação - box flutuante */
+
+section:hover{
+    transform: scale(1.2);
+}
+
+section h3{
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+}
+
+/* Definindo box section (caixa inferior esquerda) - preço e legenda */
+.preco{
+    display: flex;
+    align-items: center;
+}
+
+#preco-numero{
+    font-size: xx-large;
+    font-weight: 700;
+    color: white;
+}
+
+#preco-legenda{
+    font-size: ;
+    color: hsl(217, 51%, 85%);
+    margin-left: 15px;
+}
+
+/* Definindo box section (caixa inferior esquerda) - frase */
+section p{
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+/* Definindo box section (caixa inferior esquerda) - botão */
+
+button{
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: -1px -1px 18px 1px hsl(180, 1%, 47%);
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    /* Animação - velocidade de transição*/
+    transition: 
+        background-color, 0.5s,
+        color, 0.5s;
+}
+
+/* Definindo box section (caixa inferior esquerda) - Animaçõa botão */
+
+button:hover{
+    background-color: white;
+    color: hsl(179, 62%, 43%);
+    box-shadow: -1px -1px 10px 1px hsl(180, 12%, 74%);
+}
+
+
+/*  Definindo box section (caixa inferior direita) */
+
+aside{
+    padding: 37px;
+    grid-area: right;
+    background-color: hsl(178, 50%, 51%);
+    border-radius: 0 0 8px 0;
+    /* Animação - velocidade de transição*/
+    transition: transform 0.5s;
+}
+
+
+/*  Definindo box section (caixa inferior direita) - animação box flutuante */
+
+aside:hover{
+    transform: scale(1.2);
+}
+
+aside h3{
+    font-size: large;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+aside ul{
+    color: white;
+    font-size: medium;
+    list-style-type: none
+}

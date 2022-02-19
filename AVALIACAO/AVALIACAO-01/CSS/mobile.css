@@ -1,0 +1,90 @@
+/* Estilizando o media querie para o formato mobile */
+/* Os ajustes servem para redimencionar os elementos de acordo com a tela. */
+
+@media screen and (max-width: 500px){
+    
+    /* Ajustando o body */
+
+    body{
+        display: flex;
+    }
+
+    /* Ajustando o main */
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 87%;
+        height: 100%;
+    }
+
+    /* Ajustando o box article */
+
+    article{
+        padding: 25px;
+    }
+
+    article h1{
+        font-size: larger;
+    }
+    
+    article h2{
+        font-size: large;
+        margin-bottom: 20px;
+    }
+    
+    article p{
+        word-spacing: 2px;
+        letter-spacing: -1px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+
+
+    /* Ajustando o box section */
+    
+    section{
+        padding: 25px;
+        border-radius: 0 0 0 0;
+    }
+
+    /* Ajustando o box section - animação */
+
+    section:hover{
+        transform: scale(1);
+    }
+
+    
+
+    section h3{
+        margin-bottom: 17px;
+    }
+
+    .preco{
+        margin-bottom: 10px;
+    }
+
+    section p{
+        margin-bottom: 35px;
+    }
+    
+
+
+    /* Ajustando o box aside */
+
+    aside{
+        padding: 25px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    aside:hover{
+        transform: scale(1);
+    }    
+
+    aside ul{
+        line-height: 25px;
+    }
+
+}
