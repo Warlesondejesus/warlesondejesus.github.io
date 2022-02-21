@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - EX-04-JS</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        .desligada {
+            width: 100vh;
+            height: 100vw;
+            background-image: url(SRC/lampada-apagada-png.png);
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+
+
+        }
+
+        .ligada {
+            background-image: url(SRC/lampada-acesa-png.png);
+            width: 100vh;
+            height: 100vw;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+        }
+
+        button {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            height: 30px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="desligada">
+
+    </div>
+
+    <button id="btn">Ligar</button>
+    <script src="SRC/jscript.js"></script>
+</body>
+
+</html>
+
+<!-- aula de DOM 
+funções que estão dentro de objetos são chamados de MediaStreamAudioDestinationNode, document é um objeto, get é um metodo
+
+
+-->
