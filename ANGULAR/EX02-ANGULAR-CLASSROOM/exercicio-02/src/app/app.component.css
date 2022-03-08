@@ -1,0 +1,17 @@
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 120, 173);
+}
+
+.corpo {
+    border: 2px solid rgb(10, 209, 183);
+    padding: 15px;
+    background-color: rgb(99, 170, 129);
+    font-size: 20px;
+
+    
+}
